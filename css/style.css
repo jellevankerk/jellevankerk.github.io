@@ -6,3 +6,11 @@ h1
 p{
     color: aquamarine;
 }
+
+main {
+    background-color: red;
+}
+
+header{
+    background-color: blue;
+}
