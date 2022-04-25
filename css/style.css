@@ -20,6 +20,13 @@ p{
     padding: 20px;
 }
 
+a{
+  color: black;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 main {
     background-color: red;
 }
@@ -40,7 +47,7 @@ a.home {
     color: #4D00FF;
 }
 
-.about_me{
+.about_me, .hobbies, .education{
   background-color: #4D00FF;
   padding: 40px 0 40px 0;
 }
@@ -51,6 +58,15 @@ a.home {
   border-top: #F2F2F2 1px solid;
 }
 
-.about_me h2{
+.hobbies a, .education a{
   color: #F2F2F2;
+}
+
+.about_me h2, .hobbies h2, .education h2{
+  color: #F2F2F2;
+}
+
+.work_experience{
+  background-color: #F2F2F2 ;
+  padding: 40px 0 40px 0;
 }
