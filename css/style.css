@@ -1,10 +1,23 @@
+html {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #F2F2F2;  
+  text-align: center;  
+}
+
 h1 
 {
     color: aqua;
 }
 
 p{
-    color: aquamarine;
+    color: black;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 main {
@@ -17,12 +30,27 @@ main {
 .header li {
     display: inline-block;
     padding: 10px;
-  }
+}
   
-  .header a {
+.header a {
     color: #4A4A4A;
-  }
+}
   
-  a.home {
+a.home {
     color: #4D00FF;
-  }
+}
+
+.about_me{
+  background-color: #4D00FF;
+  padding: 40px 0 40px 0;
+}
+
+.about_me p{
+  color: #F2F2F2;
+  border-bottom: #F2F2F2 1px solid;
+  border-top: #F2F2F2 1px solid;
+}
+
+.about_me h2{
+  color: #F2F2F2;
+}
