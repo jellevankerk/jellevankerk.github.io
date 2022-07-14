@@ -4,69 +4,70 @@ html {
 }
 
 body {
-  background-color: #F2F2F2;  
-  text-align: center;  
+  background-color: #F2F2F2;
+  text-align: center;
 }
 
-h1 
-{
-    color: aqua;
+div {
+  border: 10px solid red;
+  margin: auto 50px;
+  padding: 100px
 }
 
-p{
-    color: black;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
-a{
+p {
   color: black;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
+}
+
+a {
+  color: black;
 }
 
 main {
-    background-color: red;
+  background-color: red;
 }
 
-.header{
-    background-color: whitesmoke;
+.header {
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  border: blue solid 10px;
+  padding: 100px 50px;
+  margin: auto 50px;
 }
-.header li {
-    display: inline-block;
-    padding: 10px;
+
+.header img {
+  width: 200px;
+  height: 200px;
+  align-self: ;
 }
-  
-.header a {
-    color: #4A4A4A;
-}
-  
+
 a.home {
-    color: #4D00FF;
+  color: #4D00FF;
 }
 
-.about_me, .hobbies, .education{
+.about_me,
+.hobbies,
+.education {
   background-color: #4D00FF;
-  padding: 40px 0 40px 0;
 }
 
-.about_me p{
+.about_me p {
   color: #F2F2F2;
   border-bottom: #F2F2F2 1px solid;
   border-top: #F2F2F2 1px solid;
 }
 
-.hobbies a, .education a{
+.hobbies a,
+.education a {
   color: #F2F2F2;
 }
 
-.about_me h2, .hobbies h2, .education h2{
+.about_me h2,
+.hobbies h2,
+.education h2 {
   color: #F2F2F2;
 }
 
-.work_experience{
-  background-color: #F2F2F2 ;
-  padding: 40px 0 40px 0;
+.work_experience {
+  background-color: #F2F2F2;
 }
